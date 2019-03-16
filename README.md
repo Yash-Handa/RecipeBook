@@ -1,5 +1,7 @@
 # RecipeBook
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aef3bcdfce5d439798cd6902b9dfac3a)](https://app.codacy.com/app/yashhanda7/RecipeBook?utm_source=github.com&utm_medium=referral&utm_content=Yash-Handa/RecipeBook&utm_campaign=Badge_Grade_Dashboard)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Development server
