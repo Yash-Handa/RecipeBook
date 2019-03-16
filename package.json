@@ -6,7 +6,7 @@
     "start": "ng serve --open --port=1998",
     "build": "ng build",
     "test": "ng test",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc report --reporter=text-lcov jasmine && codecov",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -33,6 +33,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "codecov": "^3.2.0",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
