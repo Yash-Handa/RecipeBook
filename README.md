@@ -1,6 +1,15 @@
 # RecipeBook
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aef3bcdfce5d439798cd6902b9dfac3a)](https://app.codacy.com/app/yashhanda7/RecipeBook?utm_source=github.com&utm_medium=referral&utm_content=Yash-Handa/RecipeBook&utm_campaign=Badge_Grade_Dashboard)
+[![Build Status](https://travis-ci.com/Yash-Handa/RecipeBook.svg?branch=master)](https://travis-ci.com/Yash-Handa/RecipeBook)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Yash-Handa/RecipeBook.svg?style=flat)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Yash-Handa/RecipeBook.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Yash-Handa/RecipeBook/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Yash-Handa/RecipeBook.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Yash-Handa/RecipeBook/context:javascript)
+[![codecov](https://codecov.io/gh/Yash-Handa/RecipeBook/branch/master/graph/badge.svg)](https://codecov.io/gh/Yash-Handa/RecipeBook)
+![David](https://img.shields.io/david/Yash-Handa/RecipeBook.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/Yash-Handa/RecipeBook/badge.svg)](https://snyk.io/test/github/Yash-Handa/RecipeBook)
+![David](https://img.shields.io/david/dev/Yash-Handa/RecipeBook.svg)
+![GitHub](https://img.shields.io/github/license/Yash-Handa/RecipeBook.svg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
