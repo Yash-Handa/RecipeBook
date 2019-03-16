@@ -8,7 +8,6 @@
 [![codecov](https://codecov.io/gh/Yash-Handa/RecipeBook/branch/master/graph/badge.svg)](https://codecov.io/gh/Yash-Handa/RecipeBook)
 ![David](https://img.shields.io/david/Yash-Handa/RecipeBook.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/Yash-Handa/RecipeBook/badge.svg)](https://snyk.io/test/github/Yash-Handa/RecipeBook)
-![David](https://img.shields.io/david/dev/Yash-Handa/RecipeBook.svg)
 ![GitHub](https://img.shields.io/github/license/Yash-Handa/RecipeBook.svg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
