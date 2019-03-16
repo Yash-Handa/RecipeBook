@@ -22,7 +22,7 @@ install:
 script:
   - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
   - npm install codecov -g
-  - nyc report --reporter=json > coverage/coverage.json
+  - nyc report --reporter=text-lcov --all --cache=false jasmine
   - codecov
 
 after_success:
