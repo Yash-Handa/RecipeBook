@@ -1,3 +1,4 @@
+import { TestingService } from './../../testing.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recipe-detail.component.css']
 })
 export class RecipeDetailComponent implements OnInit {
-
-  constructor() { }
+  counting = 0;
+  constructor(public counter: TestingService) { }
 
   ngOnInit() {
+    this.counter.testEvent.subscribe(
+      (val: number) => this.counting = val
+    );
   }
 
 }

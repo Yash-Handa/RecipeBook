@@ -1,3 +1,4 @@
+import { TestingService } from './../testing.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingListComponent implements OnInit {
 
-  constructor() { }
+  constructor(public testing: TestingService) { }
 
   ngOnInit() {
+    this.second();
+  }
+
+  second(): void {
+    let i = 0;
+    setInterval(() => {
+      i += 1;
+      this.testing.testEvent.emit(i);
+    }, 1000);
   }
 
 }
